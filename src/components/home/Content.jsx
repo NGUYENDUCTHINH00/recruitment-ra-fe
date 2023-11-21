@@ -61,7 +61,7 @@ function Content() {
                     className='ad-image'
                     data-v-6263ad6f=''
                   />
-                  <a href='dang-nhap.html' data-v-6263ad6f=''>
+                  <a href='dangnhap' data-v-6263ad6f=''>
                     <button className='advertise-button' data-v-6263ad6f=''>
                       Tạo việc làm ngay
                     </button>
@@ -82,7 +82,7 @@ function Content() {
                     className='ad-image'
                     data-v-6263ad6f=''
                   />
-                  <a href='dang-nhap.html' data-v-6263ad6f=''>
+                  <a href='dangnhap' data-v-6263ad6f=''>
                     <button className='advertise-button' data-v-6263ad6f=''>
                       Danh sách việc làm
                     </button>
