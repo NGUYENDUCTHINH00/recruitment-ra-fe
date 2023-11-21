@@ -4,7 +4,7 @@ import Content from "./Content";
 function Container() {
   return (
     <>
-      <div class='content'>
+      <div className='content'>
         <Content />
         <Footer />
       </div>
