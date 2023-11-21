@@ -1,3 +1,7 @@
+import hr from "../../img/bg-hr.fbeeba5.png";
+import jobHub from "../../img/Job-hunt-amico.be50c50.png";
+import jobPana from "../../img/Job-hunt-pana.06f8875.png";
+
 function Content() {
   return (
     <>
@@ -24,23 +28,33 @@ function Content() {
                 </p>
                 <div className='mt-35 radios' data-v-2b0257ad=''>
                   <a
+                    style={{
+                      fontSize: "18px",
+                      paddingLeft: "0",
+                      paddingRight: "0",
+                    }}
                     href='viec-lam.html'
                     className='btn btn-cta btn-warning'
                     data-v-2b0257ad=''
                   >
                     Tìm kiếm cơ hội nhận thưởng
-                  </a>{" "}
+                  </a>
                   <a
+                    style={{
+                      fontSize: "18px",
+                      paddingLeft: "0",
+                      paddingRight: "0",
+                    }}
                     href='dang-ky.html'
                     className='btn btn-cta btn-to-login'
-                    data-v-2b0257ad=''
+                    data-v-2b0257ad
                   >
                     Đăng ký trải nghiệm ngay
                   </a>
                 </div>
               </div>
               <div className='col-md-6 col-xs-12 d-xs-none' data-v-2b0257ad=''>
-                <img src='_nuxt/img/bg-hr.fbeeba5.png' data-v-2b0257ad='' />
+                <img src={hr} data-v-2b0257ad='' />
               </div>
             </div>
           </div>
@@ -54,15 +68,19 @@ function Content() {
                   <div className='mt-4 content' data-v-6263ad6f=''>
                     Đăng việc làm ngay hôm nay, <br data-v-6263ad6f='' />
                     nhận hồ sơ, phỏng vấn miễn phí.
-                  </div>{" "}
+                  </div>
                   <img
-                    src='_nuxt/img/Job-hunt-amico.be50c50.png'
+                    src={jobHub}
                     alt=''
                     className='ad-image'
                     data-v-6263ad6f=''
                   />
                   <a href='dang-nhap.html' data-v-6263ad6f=''>
-                    <button className='advertise-button' data-v-6263ad6f=''>
+                    <button
+                      style={{ cursor: "pointer" }}
+                      className='advertise-button'
+                      data-v-6263ad6f=''
+                    >
                       Tạo việc làm ngay
                     </button>
                   </a>
@@ -72,18 +90,22 @@ function Content() {
                 <div className='advertise-slot' data-v-6263ad6f=''>
                   <h3 data-v-6263ad6f=''>Ứng tuyển nhận thưởng ngay</h3>
                   <div className='mt-4 content' data-v-6263ad6f=''>
-                    Tại Devwork,sau khi ứng tuyển thành công,{" "}
+                    Tại Devwork,sau khi ứng tuyển thành công,
                     <br data-v-6263ad6f='' />
                     ứng viên sẽ được nhận thưởng từ nhà tuyển dụng.
-                  </div>{" "}
+                  </div>
                   <img
-                    src='_nuxt/img/Job-hunt-pana.06f8875.png'
+                    src={jobPana}
                     alt=''
                     className='ad-image'
                     data-v-6263ad6f=''
                   />
                   <a href='dang-nhap.html' data-v-6263ad6f=''>
-                    <button className='advertise-button' data-v-6263ad6f=''>
+                    <button
+                      className='advertise-button'
+                      data-v-6263ad6f=''
+                      style={{ cursor: "pointer" }}
+                    >
                       Danh sách việc làm
                     </button>
                   </a>
@@ -104,9 +126,9 @@ function Content() {
               <span className='text-desc'>
                 Hàng ngàn cơ hội giới thiệu ứng viên nhận thưởng lớn được cập
                 nhật hàng ngày
-              </span>{" "}
+              </span>
               <a href='#' className='more'>
-                <span className='d-xs-none'>Xem thêm</span>{" "}
+                <span className='d-xs-none'>Xem thêm</span>
                 <i className='icon-arrow-right' />
               </a>
             </p>
@@ -653,7 +675,7 @@ function Content() {
                       </div>
                       <ul className='listing-icons' data-v-23280afe=''>
                         <li className='salaryVip' data-v-23280afe=''>
-                          <i className='icon-dollar' data-v-23280afe='' />{" "}
+                          <i className='icon-dollar' data-v-23280afe='' />
                           <span className='text-red' data-v-23280afe=''>
                             80-100 triệu
                           </span>
@@ -1073,7 +1095,7 @@ function Content() {
                       </div>
                       <ul className='listing-icons' data-v-23280afe=''>
                         <li className='salaryVip' data-v-23280afe=''>
-                          <i className='icon-dollar' data-v-23280afe='' />{" "}
+                          <i className='icon-dollar' data-v-23280afe='' />
                           <span className='text-red' data-v-23280afe=''>
                             60-80 triệu
                           </span>
@@ -1669,7 +1691,7 @@ function Content() {
                       </div>
                       <ul className='listing-icons' data-v-23280afe=''>
                         <li className='salaryVip' data-v-23280afe=''>
-                          <i className='icon-dollar' data-v-23280afe='' />{" "}
+                          <i className='icon-dollar' data-v-23280afe='' />
                           <span className='text-red' data-v-23280afe=''>
                             60-80 triệu
                           </span>
@@ -1768,7 +1790,7 @@ function Content() {
                       </div>
                       <ul className='listing-icons' data-v-23280afe=''>
                         <li className='salaryVip' data-v-23280afe=''>
-                          <i className='icon-dollar' data-v-23280afe='' />{" "}
+                          <i className='icon-dollar' data-v-23280afe='' />
                           <span className='text-red' data-v-23280afe=''>
                             50-70 triệu
                           </span>
@@ -1820,7 +1842,7 @@ function Content() {
                 <h2 className='section-title'>Tại sao chọn chúng tôi</h2>
                 <div className='process'>
                   <p className='pt-5'>
-                    Kết nối giữa nhà tuyển dụng và mạng lưới hơn{" "}
+                    Kết nối giữa nhà tuyển dụng và mạng lưới hơn
                     <strong>10,000 chuyên viên tuyển dụng</strong>
                     trên toàn quốc, giúp các nhà tuyển dụng tận dụng tối đa
                     nguồn lực, tiết kiệm chi phí một cách hiệu quả và chuyên
@@ -1889,9 +1911,9 @@ function Content() {
               <span className='text-desc'>
                 Blog, cẩm nang nghề nghiệp, tư vấn tuyển dụng dành cho HR,
                 Headhunter
-              </span>{" "}
+              </span>
               <a href='#' className='more'>
-                <span className='d-xs-none'>Xem thêm</span>{" "}
+                <span className='d-xs-none'>Xem thêm</span>
                 <i className='icon-arrow-right' />
               </a>
             </p>

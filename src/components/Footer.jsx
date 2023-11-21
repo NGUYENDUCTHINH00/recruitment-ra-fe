@@ -1,3 +1,12 @@
+import bocongthuong from "../img/bocongthuong.e51c1c4.png";
+import logo from "../img/logo.1.7b29205.png";
+import qrcode from "../img/appsapps.08037e6.png";
+import appstore from "../img/appstore.05512dc.png";
+import googleplay from "../img/google-play.89b685f.png";
+import ggplay from "../img/ggplay.250b7e3.png";
+import japan from "../img/global_network_japan.af8cd45.jpg";
+import vietnam from "../img/global_network_vietnam.d949283.jpg";
+
 function Footer() {
   return (
     <>
@@ -7,7 +16,7 @@ function Footer() {
             <div className='col-md-7 information' data-v-6c16e35e=''>
               <h4 data-v-6c16e35e=''>
                 <img
-                  src='_nuxt/img/logo.1.7b29205.png'
+                  src={logo}
                   alt=''
                   className='footer-logo'
                   data-v-6c16e35e=''
@@ -52,7 +61,7 @@ function Footer() {
                   >
                     <img
                       alt='DevWork - Bộ Công Thương'
-                      src='_nuxt/img/bocongthuong.e51c1c4.png'
+                      src={bocongthuong}
                       data-v-6c16e35e=''
                     />
                   </a>
@@ -64,14 +73,14 @@ function Footer() {
                 >
                   <div className='img' data-v-6c16e35e=''>
                     <img
-                      src='_nuxt/img/appsapps.08037e6.png'
+                      src={qrcode}
                       alt=''
                       className='qr_code'
                       data-v-6c16e35e=''
                     />{" "}
                     <br data-v-6c16e35e='' />{" "}
                     <img
-                      src='_nuxt/img/appstore.05512dc.png'
+                      src={appstore}
                       alt=''
                       className='qr_code'
                       data-v-6c16e35e=''
@@ -79,14 +88,14 @@ function Footer() {
                   </div>
                   <div className='img' data-v-6c16e35e=''>
                     <img
-                      src='_nuxt/img/google-play.89b685f.png'
+                      src={googleplay}
                       alt=''
                       className='qr_code'
                       data-v-6c16e35e=''
                     />{" "}
                     <br data-v-6c16e35e='' />{" "}
                     <img
-                      src='_nuxt/img/ggplay.250b7e3.png'
+                      src={ggplay}
                       alt=''
                       className='qr_code'
                       data-v-6c16e35e=''
@@ -146,20 +155,12 @@ function Footer() {
                       target='_blank'
                       data-v-6c16e35e=''
                     >
-                      <img
-                        src='_nuxt/img/global_network_japan.af8cd45.jpg'
-                        alt=''
-                        data-v-6c16e35e=''
-                      />
+                      <img src={japan} alt='' data-v-6c16e35e='' />
                     </a>
                   </li>
                   <li data-v-6c16e35e=''>
                     <a href='index.html' target='_blank' data-v-6c16e35e=''>
-                      <img
-                        src='_nuxt/img/global_network_vietnam.d949283.jpg'
-                        alt=''
-                        data-v-6c16e35e=''
-                      />
+                      <img src={vietnam} alt='' data-v-6c16e35e='' />
                     </a>
                   </li>
                 </ul>
