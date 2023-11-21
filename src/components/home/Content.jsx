@@ -75,12 +75,6 @@ function Content() {
                     className='ad-image'
                     data-v-6263ad6f=''
                   />
-                  <a href='dang-nhap.html' data-v-6263ad6f=''>
-                    <button
-                      style={{ cursor: "pointer" }}
-                      className='advertise-button'
-                      data-v-6263ad6f=''
-                    >
                       Tạo việc làm ngay
                     </button>
                   </a>
@@ -100,12 +94,7 @@ function Content() {
                     className='ad-image'
                     data-v-6263ad6f=''
                   />
-                  <a href='dang-nhap.html' data-v-6263ad6f=''>
-                    <button
-                      className='advertise-button'
-                      data-v-6263ad6f=''
-                      style={{ cursor: "pointer" }}
-                    >
+
                       Danh sách việc làm
                     </button>
                   </a>

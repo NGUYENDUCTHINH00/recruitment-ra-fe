@@ -4,7 +4,6 @@ import "../css/aadafa5.css";
 import "../css/7e5ea22.css";
 
 import Container from "./home/Container";
-
 function Body() {
   return (
     <>
@@ -13,6 +12,7 @@ function Body() {
           <div className='wrapper'>
             <Header />
             <Container />
+            
           </div>
         </div>
       </div>
