@@ -12,7 +12,6 @@ function Body() {
           <div className='wrapper'>
             <Header />
             <Container />
-            
           </div>
         </div>
       </div>
