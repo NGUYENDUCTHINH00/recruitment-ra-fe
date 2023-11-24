@@ -1,10 +1,10 @@
-import Header from "./Header";
-import "../css/4a900fb.css";
-import "../css/aadafa5.css";
-import "../css/7e5ea22.css";
+import Header from "../Header";
+import "../../css/4a900fb.css";
+import "../../css/aadafa5.css";
+import "../../css/7e5ea22.css";
 
-import Container from "./home/Container";
-function Body() {
+import Container from "./Container";
+function Home() {
   return (
     <>
       <div data-server-rendered='true' id='__nuxt'>
@@ -19,4 +19,4 @@ function Body() {
   );
 }
 
-export default Body;
+export default Home;

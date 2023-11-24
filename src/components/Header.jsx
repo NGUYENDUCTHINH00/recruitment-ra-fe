@@ -1,19 +1,43 @@
 import { Link } from "react-router-dom";
 import Logodev from "../img/logo-dark.2cac76e.png";
+import LogoDevLight from "../img/logo.d998f00.png";
+
+import React, { useState } from "react";
+
 function Header() {
+  const [classNameSearch, setClassNameSearch] = useState("drawer");
+  const [classNameMenu, setClassNameMenu] = useState("drawer nav-drawer");
+
+  const handleClassNameSearchOpen = () =>
+    setClassNameSearch("drawer drawer--show");
+  const handleClassNameSearchClose = () => setClassNameSearch("drawer");
+
+  const handleClassNameMenuOpen = () =>
+    setClassNameMenu("drawer nav-drawer drawer--show");
+  const handleClassNameMenuClose = () => setClassNameMenu("drawer nav-drawer");
+
   return (
     <header data-fetch-key={0} className='sticky-header'>
-      <div className='drawer nav-drawer' data-v-5f7cfca9=''>
+      <div className={classNameMenu} data-v-5f7cfca9=''>
         <div className='drawer__bg' data-v-5f7cfca9='' />
         <div
           className='drawer__content'
           style={{ maxWidth: "65%" }}
           data-v-5f7cfca9=''
         >
-          <span className='icon-close' data-v-5f7cfca9='' />
+          <span
+            className='icon-close'
+            data-v-5f7cfca9=''
+            onClick={handleClassNameMenuClose}
+          />
           <div className='mobile-drawer-menu' data-v-5f7cfca9=''>
             <div className='header' data-v-5f7cfca9=''>
-              <img src={Logodev} alt='logo-dev' width={100} data-v-5f7cfca9 />
+              <img
+                src={LogoDevLight}
+                alt='logo-dev'
+                width={100}
+                data-v-5f7cfca9
+              />
             </div>
             <ul className='mobile-menu' data-v-5f7cfca9=''>
               <li data-v-5f7cfca9=''>
@@ -44,14 +68,18 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className='drawer' data-v-5f7cfca9=''>
+      <div className={classNameSearch} data-v-5f7cfca9=''>
         <div className='drawer__bg' data-v-5f7cfca9='' />
         <div
           className='drawer__content'
           style={{ maxWidth: "100%" }}
           data-v-5f7cfca9=''
         >
-          <span className='icon-close' data-v-5f7cfca9='' />
+          <span
+            className='icon-close'
+            data-v-5f7cfca9=''
+            onClick={handleClassNameSearchClose}
+          />
           <div data-fetch-key='JobSearch:0' className='search-container'>
             <h2 className='mb-12'>Tìm kiếm cơ hội nhận thưởng</h2>
             <div className='search-form'>
@@ -62,7 +90,6 @@ function Header() {
                   placeholder='Nhập từ khóa tìm kiếm...'
                   className='keyword'
                 />
-                {/**/}
               </div>
               <div className='input-skill select-box'>
                 <div dir='auto' className='v-select vs--single vs--searchable'>
@@ -322,10 +349,10 @@ function Header() {
           </ul>
         </nav>
         <nav className='d-md-none mobile-nav'>
-          <span className='search'>
+          <span onClick={handleClassNameSearchOpen} className='search'>
             <i className='icon-search' />
           </span>
-          <span className='menu-bar'>
+          <span className='menu-bar' onClick={handleClassNameMenuOpen}>
             <i className='icon-bar' />
           </span>
         </nav>
