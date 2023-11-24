@@ -57,12 +57,12 @@ function Header() {
                 </Link>
               </li>
               <li data-v-5f7cfca9=''>
-                <a
-                  href='dang-ky.html'
+                <Link
+                  to='/dangky'
                   className='btn-register btn-warning gradient'
                 >
                   Đăng ký tài khoản
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -336,15 +336,14 @@ function Header() {
               </ul>
             </li>
             <li>
-              <Link to='/dangnhap'>Đăng nhập</Link>
+              <Link to='/dangnhap' className='btn-login'>
+                Đăng nhập
+              </Link>
             </li>
             <li>
-              <a
-                href='dang-ky.html'
-                className='btn-register btn-warning gradient'
-              >
+              <Link to='/dangky' className='btn-register btn-warning gradient'>
                 Đăng ký tài khoản
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
