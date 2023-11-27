@@ -8,23 +8,23 @@ import { Link } from "react-router-dom";
 
 function Register() {
   return (
-    <div className='main'>
+    <div className="main">
       <div>
-        <div data-server-rendered='true' id='__nuxt'>
-          <div id='__layout'>
-            <div className='wrapper'>
+        <div data-server-rendered="true" id="__nuxt">
+          <div id="__layout">
+            <div className="wrapper">
               <Header />
 
-              <div className='content'>
-                <div className='bg-auth page-auth single' data-v-59b4a76c>
-                  <div className='container' data-v-59b4a76c>
-                    <div className='row row-large' data-v-59b4a76c>
-                      <div className='col-md-4' data-v-59b4a76c>
-                        <div className='choose-box' data-v-59b4a76c>
-                          <small className='help-block' data-v-59b4a76c>
+              <div className="content">
+                <div className="bg-auth page-auth single" data-v-59b4a76c>
+                  <div className="container" data-v-59b4a76c>
+                    <div className="row row-large" data-v-59b4a76c>
+                      <div className="col-md-4" data-v-59b4a76c>
+                        <div className="choose-box" data-v-59b4a76c>
+                          <small className="help-block" data-v-59b4a76c>
                             Bạn là
                           </small>
-                          <h1 className='page-title mt-10' data-v-59b4a76c>
+                          <h1 className="page-title mt-10" data-v-59b4a76c>
                             HR Freelance
                           </h1>
                           <p data-v-59b4a76c>
@@ -35,20 +35,20 @@ function Register() {
                           <br data-v-59b4a76c />
 
                           <Link
-                            to='/dangky/hrfreelance'
-                            type='submit'
-                            className='btn btn-action btn-warning gradient block mb-20'
+                            to="/dangky/hrfreelance"
+                            type="submit"
+                            className="btn btn-action btn-warning gradient block mb-20"
                           >
                             Đăng ký ngay
                           </Link>
                         </div>
                       </div>
-                      <div className='col-md-4' data-v-59b4a76c>
-                        <div className='choose-box' data-v-59b4a76c>
-                          <small className='help-block' data-v-59b4a76c>
+                      <div className="col-md-4" data-v-59b4a76c>
+                        <div className="choose-box" data-v-59b4a76c>
+                          <small className="help-block" data-v-59b4a76c>
                             Bạn là
                           </small>
-                          <h1 className='page-title mt-10' data-v-59b4a76c>
+                          <h1 className="page-title mt-10" data-v-59b4a76c>
                             Nhà tuyển dụng
                           </h1>
                           <p data-v-59b4a76c>
@@ -57,22 +57,21 @@ function Register() {
                             của chúng tôi.
                           </p>
                           <br data-v-59b4a76c />
-                          <a
-                            href='*'
-                            type='submit'
-                            className='btn btn-action btn-warning gradient block mb-20'
-                            data-v-59b4a76c
+                          <Link
+                            to="/dangky/nhatuyendung"
+                            type="submit"
+                            className="btn btn-action btn-warning gradient block mb-20"
                           >
                             Đăng ký ngay
-                          </a>
+                          </Link>
                         </div>
                       </div>
-                      <div className='col-md-4' data-v-59b4a76c>
-                        <div className='choose-box' data-v-59b4a76c>
-                          <small className='help-block' data-v-59b4a76c>
+                      <div className="col-md-4" data-v-59b4a76c>
+                        <div className="choose-box" data-v-59b4a76c>
+                          <small className="help-block" data-v-59b4a76c>
                             Bạn là
                           </small>
-                          <h1 className='page-title mt-10' data-v-59b4a76c>
+                          <h1 className="page-title mt-10" data-v-59b4a76c>
                             Ứng viên
                           </h1>
                           <p data-v-59b4a76c>
@@ -81,9 +80,9 @@ function Register() {
                           </p>
                           <br data-v-59b4a76c />
                           <Link
-                            to='/#'
-                            type='submit'
-                            className='btn btn-action btn-warning gradient block mb-20'
+                            to="/dangky/ungvien"
+                            type="submit"
+                            className="btn btn-action btn-warning gradient block mb-20"
                           >
                             Đăng ký ngay
                           </Link>
@@ -94,8 +93,8 @@ function Register() {
                 </div>
                 <Footer />
               </div>
-              <div className='portal-outside'>
-                <div className='vue-portal-target' />
+              <div className="portal-outside">
+                <div className="vue-portal-target" />
               </div>
             </div>
           </div>
