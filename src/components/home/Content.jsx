@@ -1,7 +1,7 @@
 import hr from "../../img/bg-hr.fbeeba5.png";
 import jobHub from "../../img/Job-hunt-amico.be50c50.png";
 import jobPana from "../../img/Job-hunt-pana.06f8875.png";
-
+import { Link } from "react-router-dom";
 function Content() {
   return (
     <>
@@ -39,18 +39,18 @@ function Content() {
                   >
                     Tìm kiếm cơ hội nhận thưởng
                   </a>
-                  <a
+                  <Link
+                    to="/dangky"
+                    className="btn btn-cta btn-to-login"
+                    data-v-2b0257ad
                     style={{
                       fontSize: "18px",
                       paddingLeft: "0",
                       paddingRight: "0",
                     }}
-                    href="dang-ky.html"
-                    className="btn btn-cta btn-to-login"
-                    data-v-2b0257ad
                   >
                     Đăng ký trải nghiệm ngay
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-md-6 col-xs-12 d-xs-none" data-v-2b0257ad="">
@@ -75,7 +75,7 @@ function Content() {
                     className="ad-image"
                     data-v-6263ad6f=""
                   />
-                  <a href="dang-nhap.html" data-v-6263ad6f="">
+                  <Link to="/dangnhap" data-v-6263ad6f="">
                     <button
                       style={{ cursor: "pointer" }}
                       className="advertise-button"
@@ -83,7 +83,7 @@ function Content() {
                     >
                       Tạo việc làm ngay
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-md-6 col-xs-12 d-xs-none" data-v-6263ad6f="">
@@ -100,15 +100,15 @@ function Content() {
                     className="ad-image"
                     data-v-6263ad6f=""
                   />
-                  <a href="dang-nhap.html" data-v-6263ad6f="">
+                  <Link to="/dangnhap" data-v-6263ad6f="">
                     <button
+                      style={{ cursor: "pointer" }}
                       className="advertise-button"
                       data-v-6263ad6f=""
-                      style={{ cursor: "pointer" }}
                     >
                       Danh sách việc làm
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
