@@ -1,1 +1,215 @@
-.download-file-modal .modal-footer{border-top:none!important}.download-file-modal .modal-body{padding:15px 15px 73px}.pending[data-v-359587a2]{color:#8c8787;border:1px solid #8c8787;font-size:.6rem!important;padding:.3rem .4rem!important;background-color:#fff;border-radius:5px}.pending[data-v-359587a2]:hover{color:#fff!important;background-color:#ffb701;border-color:#ffb701}.salaryVip[data-v-23280afe],.salaryVipPlus[data-v-23280afe]{color:#d3183a}.skillPrenium[data-v-23280afe]{margin:8px 0}.skillPrenium a[data-v-23280afe]{background-color:#fff;color:grey;border:1px solid grey;padding:4px 10px;margin-right:3px;border-radius:1rem;display:inline-block;line-height:16px;margin-bottom:3px}.skillVip[data-v-23280afe]{margin:8px 0}.skillVip a[data-v-23280afe]{background-color:#fff;color:#303030;border:1px solid #ffb701;padding:4px 10px;margin-right:3px;border-radius:1rem;display:inline-block;line-height:16px;margin-bottom:3px}.skillVipPlus[data-v-23280afe]{margin:8px 0}.skillVipPlus a[data-v-23280afe]{background-color:#ffb701;color:#303030;border:1px solid #ffb701;padding:4px 10px;margin-right:3px;border-radius:1rem;display:inline-block;line-height:16px;margin-bottom:3px}.fs14[data-v-23280afe]{font-size:14px}.listing-title h4 a[data-v-23280afe]{font-size:1rem!important;font-weight:600}.listing[data-v-23280afe]{position:relative}.border-yellow[data-v-23280afe]{border-left:3px solid #fdce23!important}.border-red[data-v-23280afe]{border-left:3px solid red!important}.job-description[data-v-23280afe]{display:-webkit-box;max-width:100%;-webkit-line-clamp:3;overflow:hidden;text-overflow:ellipsis;-webkit-box-orient:vertical;height:78px;font-size:14px;font-style:italic;color:#8c9398!important;width:80%;line-height:26px}.job-pre[data-v-23280afe]{border:1px solid #000}.job-pre[data-v-23280afe],.job-vip[data-v-23280afe]{background-color:#fff!important;color:#000}.job-vip[data-v-23280afe]{border:1px solid #ffb701!important}.text-red[data-v-23280afe]{color:#c81c1c}.tag-slot{display:grid;grid-template-columns:repeat(4,1fr);margin-bottom:15px}.tag-slot .search-tags-footer{padding:23px;border-radius:12px;background:#f3f5f7;border:1px solid transparent;text-align:center;color:#303030;transition:all .2s ease-in-out;letter-spacing:.1px;height:99px;transition:all .3s ease;transition:.3s}.tag-slot .search-tags-footer .count-skills{color:#303030;font-size:14px;font-weight:400;line-height:20px;transition:.3s}.tag-slot .search-tags-footer:hover{font-size:17px;box-shadow:0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23)}.tag-slot .search-tags-footer:hover .count-skills{font-size:15px}.drawer .search-container{padding:20px}.drawer .search-container h2{color:#111;margin-top:10px;font-size:1.4rem}.drawer .search-container .search-form>div .v-select,.drawer .search-container .search-form>div>input{border:1px solid #d1d1d1}.drawer .search-container .search-tags{color:#1f1f1f}.drawer .search-container .search-tags>a{background-color:#ddd;color:#1f1f1f;display:inline-block}@media only screen and (max-width:600px){.tag-slot{grid-template-columns:repeat(2,1fr)}}.article h4[data-v-91964f22]{font-size:1.2rem;line-height:30px;margin-bottom:15px;color:#222;font-weight:600}.article-title[data-v-91964f22]{font-size:1rem!important;line-height:20px!important}.article-title[data-v-91964f22]:hover{color:#ffb700}.border[data-v-91964f22]{padding:15px!important}.document-title[data-v-91964f22]{color:#fff;font-size:1.6rem;line-height:2.4rem}.article-title[data-v-91964f22],.widget h4[data-v-91964f22]{font-weight:300}.article-title[data-v-91964f22]{height:auto;font-size:14px;line-height:20px}@media(min-width:1260px){.test[data-v-91964f22]{visibility:visible;position:fixed;top:80px;width:17%}}.circle-dot[data-v-91964f22]{height:8px;min-width:8px;background-color:#ffb700;border-radius:50%;margin:7px 10px 0 0}.img-document-cover[data-v-91964f22]{width:100%}
+.download-file-modal .modal-footer {
+  border-top: none !important;
+}
+.download-file-modal .modal-body {
+  padding: 15px 15px 73px;
+}
+.pending[data-v-359587a2] {
+  color: #8c8787;
+  border: 1px solid #8c8787;
+  font-size: 0.6rem !important;
+  padding: 0.3rem 0.4rem !important;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.pending[data-v-359587a2]:hover {
+  color: #fff !important;
+  background-color: #ffb701;
+  border-color: #ffb701;
+}
+.salaryVip[data-v-23280afe],
+.salaryVipPlus[data-v-23280afe] {
+  color: #d3183a;
+}
+.skillPrenium[data-v-23280afe] {
+  margin: 8px 0;
+}
+.skillPrenium a[data-v-23280afe] {
+  background-color: #fff;
+  color: grey;
+  border: 1px solid grey;
+  padding: 4px 10px;
+  margin-right: 3px;
+  border-radius: 1rem;
+  display: inline-block;
+  line-height: 16px;
+  margin-bottom: 3px;
+}
+.skillVip[data-v-23280afe] {
+  margin: 8px 0;
+}
+.skillVip a[data-v-23280afe] {
+  background-color: #fff;
+  color: #303030;
+  border: 1px solid #ffb701;
+  padding: 4px 10px;
+  margin-right: 3px;
+  border-radius: 1rem;
+  display: inline-block;
+  line-height: 16px;
+  margin-bottom: 3px;
+}
+.skillVipPlus[data-v-23280afe] {
+  margin: 8px 0;
+}
+.skillVipPlus a[data-v-23280afe] {
+  background-color: #ffb701;
+  color: #303030;
+  border: 1px solid #ffb701;
+  padding: 4px 10px;
+  margin-right: 3px;
+  border-radius: 1rem;
+  display: inline-block;
+  line-height: 16px;
+  margin-bottom: 3px;
+}
+.fs14[data-v-23280afe] {
+  font-size: 14px;
+}
+.listing-title h4 a[data-v-23280afe] {
+  font-size: 1rem !important;
+  font-weight: 600;
+}
+.listing[data-v-23280afe] {
+  position: relative;
+}
+.border-yellow[data-v-23280afe] {
+  border-left: 3px solid #fdce23 !important;
+}
+.border-red[data-v-23280afe] {
+  border-left: 3px solid red !important;
+}
+.job-description[data-v-23280afe] {
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  height: 78px;
+  font-size: 14px;
+  font-style: italic;
+  color: #8c9398 !important;
+  width: 80%;
+  line-height: 26px;
+}
+.job-pre[data-v-23280afe] {
+  border: 1px solid #000;
+}
+.job-pre[data-v-23280afe],
+.job-vip[data-v-23280afe] {
+  background-color: #fff !important;
+  color: #000;
+}
+.job-vip[data-v-23280afe] {
+  border: 1px solid #ffb701 !important;
+}
+.text-red[data-v-23280afe] {
+  color: #c81c1c;
+}
+.tag-slot {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 15px;
+}
+.tag-slot .search-tags-footer {
+  padding: 23px;
+  border-radius: 12px;
+  background: #f3f5f7;
+  border: 1px solid transparent;
+  text-align: center;
+  color: #303030;
+  transition: all 0.2s ease-in-out;
+  letter-spacing: 0.1px;
+  height: 99px;
+  transition: all 0.3s ease;
+  transition: 0.3s;
+}
+.tag-slot .search-tags-footer .count-skills {
+  color: #303030;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  transition: 0.3s;
+}
+.tag-slot .search-tags-footer:hover {
+  font-size: 17px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.tag-slot .search-tags-footer:hover .count-skills {
+  font-size: 15px;
+}
+.drawer .search-container {
+  padding: 20px;
+}
+.drawer .search-container h2 {
+  color: #111;
+  margin-top: 10px;
+  font-size: 1.4rem;
+}
+.drawer .search-container .search-form > div .v-select,
+.drawer .search-container .search-form > div > input {
+  border: 1px solid #d1d1d1;
+}
+.drawer .search-container .search-tags {
+  color: #1f1f1f;
+}
+.drawer .search-container .search-tags > a {
+  background-color: #ddd;
+  color: #1f1f1f;
+  display: inline-block;
+}
+@media only screen and (max-width: 600px) {
+  .tag-slot {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.article h4[data-v-91964f22] {
+  font-size: 1.2rem;
+  line-height: 30px;
+  margin-bottom: 15px;
+  color: #222;
+  font-weight: 600;
+}
+.article-title[data-v-91964f22] {
+  font-size: 1rem !important;
+  line-height: 20px !important;
+}
+.article-title[data-v-91964f22]:hover {
+  color: #ffb700;
+}
+.border[data-v-91964f22] {
+  padding: 15px !important;
+}
+.document-title[data-v-91964f22] {
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.article-title[data-v-91964f22],
+.widget h4[data-v-91964f22] {
+  font-weight: 300;
+}
+.article-title[data-v-91964f22] {
+  height: auto;
+  font-size: 14px;
+  line-height: 20px;
+}
+@media (min-width: 1260px) {
+  .test[data-v-91964f22] {
+    visibility: visible;
+    position: fixed;
+    top: 80px;
+    width: 17%;
+  }
+}
+.circle-dot[data-v-91964f22] {
+  height: 8px;
+  min-width: 8px;
+  background-color: #ffb700;
+  border-radius: 50%;
+  margin: 7px 10px 0 0;
+}
+.img-document-cover[data-v-91964f22] {
+  width: 100%;
+}

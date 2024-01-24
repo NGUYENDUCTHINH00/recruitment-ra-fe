@@ -1,1 +1,57 @@
-.tag-slot{display:grid;grid-template-columns:repeat(4,1fr);margin-bottom:15px}.tag-slot .search-tags-footer{padding:23px;border-radius:12px;background:#f3f5f7;border:1px solid transparent;text-align:center;color:#303030;transition:all .2s ease-in-out;letter-spacing:.1px;height:99px;transition:all .3s ease;transition:.3s}.tag-slot .search-tags-footer .count-skills{color:#303030;font-size:14px;font-weight:400;line-height:20px;transition:.3s}.tag-slot .search-tags-footer:hover{font-size:17px;box-shadow:0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23)}.tag-slot .search-tags-footer:hover .count-skills{font-size:15px}.drawer .search-container{padding:20px}.drawer .search-container h2{color:#111;margin-top:10px;font-size:1.4rem}.drawer .search-container .search-form>div .v-select,.drawer .search-container .search-form>div>input{border:1px solid #d1d1d1}.drawer .search-container .search-tags{color:#1f1f1f}.drawer .search-container .search-tags>a{background-color:#ddd;color:#1f1f1f;display:inline-block}@media only screen and (max-width:600px){.tag-slot{grid-template-columns:repeat(2,1fr)}}
+.tag-slot {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 15px;
+}
+.tag-slot .search-tags-footer {
+  padding: 23px;
+  border-radius: 12px;
+  background: #f3f5f7;
+  border: 1px solid transparent;
+  text-align: center;
+  color: #303030;
+  transition: all 0.2s ease-in-out;
+  letter-spacing: 0.1px;
+  height: 99px;
+  transition: all 0.3s ease;
+  transition: 0.3s;
+}
+.tag-slot .search-tags-footer .count-skills {
+  color: #303030;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  transition: 0.3s;
+}
+.tag-slot .search-tags-footer:hover {
+  font-size: 17px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.tag-slot .search-tags-footer:hover .count-skills {
+  font-size: 15px;
+}
+.drawer .search-container {
+  padding: 20px;
+}
+.drawer .search-container h2 {
+  color: #111;
+  margin-top: 10px;
+  font-size: 1.4rem;
+}
+.drawer .search-container .search-form > div .v-select,
+.drawer .search-container .search-form > div > input {
+  border: 1px solid #d1d1d1;
+}
+.drawer .search-container .search-tags {
+  color: #1f1f1f;
+}
+.drawer .search-container .search-tags > a {
+  background-color: #ddd;
+  color: #1f1f1f;
+  display: inline-block;
+}
+@media only screen and (max-width: 600px) {
+  .tag-slot {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
