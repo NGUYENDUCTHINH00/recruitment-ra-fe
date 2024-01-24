@@ -14,7 +14,7 @@ function Register() {
           <div id="__layout">
             <div className="wrapper">
               <Header />
-              
+
               <div className="content">
                 <div className="bg-auth page-auth single" data-v-59b4a76c>
                   <div className="container" data-v-59b4a76c>
@@ -35,7 +35,7 @@ function Register() {
                           <br data-v-59b4a76c />
 
                           <Link
-                            to="dangky/hrfreelance"
+                            to="/dangky/hrfreelance"
                             type="submit"
                             className="btn btn-action btn-warning gradient block mb-20"
                           >
@@ -57,14 +57,13 @@ function Register() {
                             của chúng tôi.
                           </p>
                           <br data-v-59b4a76c />
-                          <a
-                            href="*"
+                          <Link
+                            to="/dangky/nhatuyendung"
                             type="submit"
                             className="btn btn-action btn-warning gradient block mb-20"
-                            data-v-59b4a76c
                           >
                             Đăng ký ngay
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="col-md-4" data-v-59b4a76c>
@@ -81,7 +80,7 @@ function Register() {
                           </p>
                           <br data-v-59b4a76c />
                           <Link
-                            to="/#"
+                            to="/dangky/ungvien"
                             type="submit"
                             className="btn btn-action btn-warning gradient block mb-20"
                           >
