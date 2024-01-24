@@ -6,6 +6,7 @@ import Register from "./components/Register/Register";
 import HrFreelance from "./components/Register/HrFreelance";
 import NhaTuyenDung from "./components/Register/NhaTuyenDung";
 import UngVien from "./components/Register/UngVien";
+import Work from "./components/Work/Work";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/dangky/hrfreelance" element={<HrFreelance />} />
       <Route path="/dangky/nhatuyendung" element={<NhaTuyenDung />} />
       <Route path="/dangky/ungvien" element={<UngVien />} />
+      <Route path="vieclam" element={<Work />}></Route>
     </Routes>
   );
 }
